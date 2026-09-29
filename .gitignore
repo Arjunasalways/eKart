@@ -1,0 +1,37 @@
+# =========================
+# Spring Boot / Maven
+# =========================
+
+ekart-backend/target/
+ekart-backend/.mvn/timing.properties
+
+# =========================
+# React / Node
+# =========================
+
+ekart-frontend/node_modules/
+ekart-frontend/dist/
+ekart-frontend/build/
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+*.env
+
+# =========================
+# IDE
+# =========================
+
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# =========================
+# macOS
+# =========================
+
+.DS_Store

@@ -1,0 +1,109 @@
+.categories {
+    padding: 80px;
+    background-color: #ffffff;
+}
+
+.categories-header {
+    margin-bottom: 40px;
+}
+
+.section-tag {
+    color: #10b981;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    margin: 0 0 12px 0;
+}
+
+.categories-header h2 {
+    color: #111111;
+
+    font-size: 36px;
+    font-weight: 800;
+
+    margin: 0 0 12px 0;
+}
+
+.section-description {
+    color: #666666;
+
+    font-size: 16px;
+
+    margin: 0;
+}
+
+.categories-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.category-card {
+    min-height: 150px;
+
+    background-color: #f5f5f5;
+
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.category-card h3 {
+    color: #111111;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    margin: 0;
+}
+
+.category-card span {
+    color: #10b981;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.category-card:hover {
+    background-color: #111111;
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.category-card:hover h3 {
+    color: #ffffff;
+}
+
+.category-card:hover span {
+    color: #10b981;
+}
+
+.view-all {
+    display: block;
+    width: fit-content;
+
+    margin-left: auto;
+    margin-right: 0;
+
+    color: #111111;
+    text-decoration: none;
+    font-weight: 700;
+}
